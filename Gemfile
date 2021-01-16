@@ -27,6 +27,13 @@ gem 'devise' # Flexible authentication solution for Rails
 # gem 'rack-attack' # Rack middleware for blocking & throttling
 # gem 'bcrypt', '~> 3.1.7' # Active Model has_secure_password
 
+# HTML parsing
+gem 'nokogiri'
+gem 'faraday'
+
+# External API
+gem 'pokemon_tcg_sdk'
+
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem "pry-byebug"
